@@ -4,6 +4,11 @@
 #pragma comment(lib, "gdi32")
 #pragma comment(lib, "user32")
 
+// Select a window interactively from a script.
+//
+// Tavis Ormandy <taviso@gmail.com>, December 2025
+//
+
 // The size of the frame drawn around selected windows.
 static const DWORD kBorderWidth = 6;
 
