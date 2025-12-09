@@ -9,6 +9,10 @@ another utility, you can do this:
 selectwin.exe otherutil.exe /handle @@
 ```
 
+It looks like this, the next click selects the hilighted window:
+
+<img width="836" height="553" alt="selectwin" src="https://github.com/user-attachments/assets/cd214506-c139-49ae-b7cc-5a9025d84584" />
+
 The `otherutil.exe` utility will be executed, and the `@@` will be replaced
 with the handle number. If you just want to print the handle to stdout, you can
 do this:
