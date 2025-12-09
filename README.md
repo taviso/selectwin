@@ -10,7 +10,12 @@ selectwin.exe otherutil.exe /handle @@
 ```
 
 The `otherutil.exe` utility will be executed, and the `@@` will be replaced
-with the handle number.
+with the handle number. If you just want to print the handle to stdout, you can
+do this:
+
+```
+selectwin.exe @@
+```
 
 A real example I use:
 
